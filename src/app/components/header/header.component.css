@@ -1,0 +1,16 @@
+
+div{
+   background-color: #0000c1;
+   display: flex;
+   justify-content: space-between;
+
+}
+div h1{
+    color: #FFF0F5;
+    font-family: "Consolas", monospace;
+    padding: 20px;
+ }
+div app-button{
+   margin-top: 20px;
+
+}

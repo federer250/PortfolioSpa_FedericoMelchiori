@@ -1,0 +1,9 @@
+.row{
+    background-color: #0000c1;
+    color: #FFF0F5;
+    font-family: "Consolas", monospace;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
