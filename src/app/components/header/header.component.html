@@ -1,7 +1,31 @@
-<div>
-    <app-logo></app-logo>
-    <h1>{{title}}</h1>
-    <app-social></app-social> 
-</div>
+<nav class="navbar navbar-expand-lg navbar-light p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../../../assets/imagenes/APLogo.png">
+          </a>
+          <h2>Portafolio Personal</h2>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="social collapse navbar-collapse justify-content-end " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a href="#"><img src="../../../assets/imagenes/facebook.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a href="#"><img src="../../../assets/imagenes/github.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a href=""><img src="../../../assets/imagenes/instagram.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a href=""><img src="../../../assets/imagenes/linkedin.png" alt=""></a>
+              </li>
+            </ul>
+            <app-button></app-button>
+          </div>
+        </div>
+      </nav>
+      
 <app-banner></app-banner>
 <app-acerca-de></app-acerca-de>
