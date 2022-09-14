@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfoliofederer"
-  }
+    "default": "portfoliofedemelchiori",
+    "portfolio-federer": "portfoliofedemelchiori"
+  },
+  "targets": {},
+  "etags": {}
 }
