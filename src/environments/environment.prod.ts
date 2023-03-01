@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  URL: 'https://backendfdm.herokuapp.com/'
+  URL: 'https://backendfdm.onrender.com/'
 };
